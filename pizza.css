@@ -16,7 +16,7 @@
 
 header {
   grid-area: header;
-  display: flex;
+  
 }
 
 .horizontal {
@@ -27,8 +27,7 @@ header {
 
 .vertical {
   grid-area: vertical;
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .main {
@@ -37,13 +36,10 @@ header {
 
 aside {
   grid-area: side;
-  display: flex;
-  place-content: column place-around;
 }
 
 footer {
   grid-area: footer;
-  justify-content: space-around;
 }
 
 
