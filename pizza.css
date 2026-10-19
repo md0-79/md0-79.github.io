@@ -22,7 +22,7 @@ header {
 .horizontal {
   grid-area: horizontal;
   display: flex;
-  justify-content: space around;
+  justify-content: space-around;
 }
 
 .vertical {
