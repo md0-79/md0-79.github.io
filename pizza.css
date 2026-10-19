@@ -24,7 +24,7 @@ header {
 }
 
 .horizontal ul {
-  display: flex:
+  display: flex;
   justify-content: space-around;
 }
 
