@@ -1,1 +1,9 @@
+#container {
+  display: grid;
+  grid-template:
+    "horizontal horizontal horizontal" 1fr
+  "vertical main side" 1fr 2fr 1fr
+  "footer footer footer" 1fr;
+  
+}
 
