@@ -6,7 +6,7 @@
   grid-template-rows: 1fr 1fr 4fr 1fr;
 
   
-  grid-template-area:
+  grid-template-areas:
   "header header header"
   "horizontal horizontal horizontal"
   "vertical main side"
@@ -21,8 +21,6 @@ header {
 
 .horizontal {
   grid-area: horizontal;
-  display: flex;
-  justify-content: space-between;
 }
 
 .vertical {
